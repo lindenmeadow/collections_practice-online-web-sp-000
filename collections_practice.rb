@@ -45,7 +45,7 @@ def add_s(array)
   new_ar = []
   array.each do |x|
     new_ar << x + "s"
-    
+
   end
   new_ar[1] = new_ar[1].gsub("s", "")
   new_ar
